@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Card from './Card.js';
+import addCard from './addCard.js';
 import './App.css';
 
 class App extends Component {
@@ -19,9 +20,10 @@ class App extends Component {
           {flashCard.front}
         </button>
     })
+    //currentCard:??
   }
 
-  
+  //render each id in deck
   render(){
     return(
       <div>
@@ -35,18 +37,8 @@ class App extends Component {
     )
   }
 
-  render(){
-    return(
-      <div>
-        <ul>
-          <Card info={this.state.deck[1]} />
-          { 
-            this.displayCards()
-          }
-        </ul>
-      </div>
-    )
-  }
+  
+
 
 }
 

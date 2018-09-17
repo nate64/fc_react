@@ -1,4 +1,5 @@
 import React from 'react';
+import addCard from './addCard.js';
 
 
 class Card extends React.Component {
