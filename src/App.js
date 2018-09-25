@@ -6,7 +6,8 @@ import './App.css';
 class App extends Component {
 
 
-  state = { deck: [
+  state = { 
+    deck: [
     { id: 1, front: "mouse", back: "small"},
     { id: 2, front: "cat", back: "dumb", },
     { id: 3, front: "dog", back: "smart" },
